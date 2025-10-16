@@ -1,0 +1,6 @@
+{
+  "scope": "x_snc_reservatio_2",
+  "scopeId": "9fdb80e22f6c72101bde931bcfa4e351",
+  "name": "Reservatio 2",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
