@@ -244,7 +244,7 @@ export default function App() {
       <div className="dashboard-header">
         <h1>🛡️ Fraud Detection Dashboard</h1>
         <div className="header-actions">
-          <button className="btn btn-primary" onClick={() => window.location.reload()}>
+          <button className="refresh-button" onClick={() => window.location.reload()}>
             🔄 Refresh
           </button>
         </div>

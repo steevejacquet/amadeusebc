@@ -5,6 +5,10 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    'app.css': {
+                        table: 'sys_ux_theme_asset'
+                        id: '786d0c8dc18c43558082e1c62ce64f91'
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: '1090bc20911143eaadbe2c3b609c53a4'

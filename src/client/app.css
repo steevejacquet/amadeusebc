@@ -35,6 +35,34 @@
   gap: 10px;
 }
 
+/* Refresh Button - Changed from blue to green */
+.refresh-button {
+  background: linear-gradient(145deg, #27ae60, #229954);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(39, 174, 96, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.refresh-button:hover {
+  background: linear-gradient(145deg, #229954, #1e8449);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(39, 174, 96, 0.4);
+}
+
+.refresh-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(39, 174, 96, 0.3);
+}
+
 /* Enhanced Stats Grid */
 .stats-grid {
   display: grid;
